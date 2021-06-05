@@ -1,4 +1,13 @@
-# Daily Coding Problem: Problem #380 [Medium] 
+# Divide without division
+
+The basic problem involves doing integer arithmetical division
+without using built-in division operator(s).
+I've seen it show up as the Daily Coding Problem in 2 similar,
+but not identical ways.
+
+---
+
+## Daily Coding Problem: Problem #380 [Medium] 
 
 This problem was asked by Nextdoor.
 
@@ -14,4 +23,16 @@ since the divisor is 3 and the remainder is 1.
 
 Bonus: Can you do it in O(log n) time?
 
-## Analysis
+---
+
+## Daily Coding Problem: Problem #896 [Medium] 
+
+This question was asked by ContextLogic.
+
+Implement division of two positive integers without using the division,
+multiplication,
+or modulus operators.
+Return the quotient as an integer,
+ignoring the remainder.
+
+---
