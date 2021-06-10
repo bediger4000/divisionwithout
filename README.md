@@ -39,13 +39,14 @@ ignoring the remainder.
 
 ## Algorithm Analysis
 
-Neither of the algorithms deny the use of the subtraction operator,
+Neither of the problem statements deny
+the use of the subtraction operator,
 or any bitwise operators.
 It's certainly possible to divide by 2 without subtraction,
-but I wonder if division by any other divisor is possible
+but I wonder if division by any other integer is possible
 without subtraction?
 
-The "[Medium]" rating would seem to direct away from
+The "[Medium]" rating would seem to direct one away from
 counting subtractions of the divisor until the remainder
 is numerically less than the divisor.
 Nevertheless, I [implemented](div1.go) that algorithm.
