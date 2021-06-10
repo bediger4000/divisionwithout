@@ -65,16 +65,15 @@ I [reimplemented in Go](div2.go).
 I would have failed the "bonus" part of one of the questions.
 
 The subtract-and-shift method makes as many trips through
-the subtract-and-shift loop as the position of the highest
-1-bit in the denominator.
-Since base 2 is a positional representation,
-that's roughly log-base-2 of the denominator,
-so this method is O(log n) in the magnitude of the denominator.
-There's also a varying number of bitwise left shifts
-depending on the relative sizes of the numerator and denominator.
+the subtract-and-shift loop as there are (base-2) orders of magnitude
+difference between the numerator and denominator.
+I don't know that this counts as O(log n),
+since n is a consequence of the base-2 magnitudes of the operands.
+
 There doesn't appear to be some obscure high-constant-factor
 algorithm for dividing extremely large numbers by small numbers,
-like there is for multiplying two very large numbers.
+like there is for
+[multiplying two very large numbers](https://en.wikipedia.org/wiki/Toom%E2%80%93Cook_multiplication).
 
 ## Interview Analysis
 
